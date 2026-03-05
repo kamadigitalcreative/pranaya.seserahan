@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Pranaya Seserahan</title>
+    <title>Aplikasi Web Profesional</title>
+
+    <link rel="icon" type="image/png" href="LOGO.png""> 
     <style>
-        /* Mengatur agar halaman memenuhi seluruh layar browser */
+        /* Menghilangkan margin dan membuat tampilan full screen */
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             width: 100%;
-            overflow: hidden; /* Menghilangkan scrollbar pada body */
+            overflow: hidden;
             background-color: #ffffff;
         }
 
-        /* Container untuk menampung aplikasi */
-        .app-wrapper {
+        .container {
             position: absolute;
             top: 0;
             left: 0;
@@ -24,7 +25,6 @@
             height: 100%;
         }
 
-        /* Pengaturan Iframe agar responsif dan bersih */
         iframe {
             width: 100%;
             height: 100%;
@@ -35,7 +35,7 @@
 </head>
 <body>
 
-    <div class="app-wrapper">
+    <div class="container">
         <iframe 
             src="https://script.google.com/macros/s/AKfycbz_LUuH6Owcq0h4UVC-zr_N3ilRE-L47i-9uOLYTeOjYg-TIvNSMmMRmhLTxrJIEW1S/exec" 
             allow="geolocation; microphone; camera; encrypted-media;"
@@ -44,7 +44,5 @@
     </div>
 
 </body>
-
 </html>
-
 
